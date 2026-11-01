@@ -20,6 +20,8 @@ int main(){
         }
     }
     cout <<"最大的数是："  <<max<<endl;
+
+
     min = grade[0];
     for(i=0;i<grade.size();i++){
         if(min>grade[i]){
@@ -27,6 +29,8 @@ int main(){
         }
     }
     cout << "最小的数是:"<<min<<endl;
+
+    
     j = grade.size();
     for(i=0;i<grade.size();i++){
         a = a+grade[i];
