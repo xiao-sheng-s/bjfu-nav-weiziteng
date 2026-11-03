@@ -1,0 +1,7 @@
+task2/grade
+task2/practice
+task2/swap
+*.o
+*out
+*.exe
+build/
