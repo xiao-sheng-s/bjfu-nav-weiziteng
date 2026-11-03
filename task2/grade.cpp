@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-    int n,i,max,min,j,a=0;
-    int q,zhong;
+    double n,i,max,min,j,a=0;
+    double q,zhong;
     std::vector<int>grade;
     cout <<"Please input grades:"<<endl;
     while(cin >> n){
