@@ -1,15 +1,24 @@
 #include <iostream>
 #include<vector>
+#include<fstream>
 using namespace std;
 
 int main(){
     double n,i,max,min,j,a=0;
     double q,zhong;
+    std::ifstream infile("grade.txt");
+    if(!infile.is_open()){
+        cerr <<"错误"<< endl;
+        return 1;
+    }
     std::vector<int>grade;
     cout <<"Please input grades:"<<endl;
-    while(cin >> n){
+    while(infile >> n){
         grade.push_back(n);
     }
+
+    infile.close();
+    
     if(grade.empty()){
         cout <<"没东西"<<endl;
     }
