@@ -16,3 +16,6 @@ cmake make编译
 
 断点调试
 ![rupt](./interrupt.png)
+
+ifstream传值
+![ifstream](./ifstream.png)
