@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rm_referee_mock</name>
+  <version>0.1.0</version>
+  <description>裁判系统模拟节点：发布阶段/血量/弹量，提供回血服务</description>
+  <maintainer email="you@example.com">xiaosheng</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

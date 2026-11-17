@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/xiaosheng/bjfu-nav-weiziteng/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/swap_function.dir/swap.cpp.o -c /home/xiaosheng/bjfu-nav-weiziteng/task2/swap.cpp",
+  "file": "/home/xiaosheng/bjfu-nav-weiziteng/task2/swap.cpp",
+  "output": "CMakeFiles/swap_function.dir/swap.cpp.o"
+},
+{
+  "directory": "/home/xiaosheng/bjfu-nav-weiziteng/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/swap_function.dir/swep_function.cpp.o -c /home/xiaosheng/bjfu-nav-weiziteng/task2/swep_function.cpp",
+  "file": "/home/xiaosheng/bjfu-nav-weiziteng/task2/swep_function.cpp",
+  "output": "CMakeFiles/swap_function.dir/swep_function.cpp.o"
+}
+]

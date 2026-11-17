@@ -1,0 +1,8 @@
+task*/build/
+task*/install/
+task*/log/
+__pycache__/
+*.pyc
+.vscode/
+*.mkv
+*.mp4

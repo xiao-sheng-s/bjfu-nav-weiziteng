@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rm_chassis</name>
+  <version>0.1.0</version>
+  <description>底盘节点：订阅 /cmd_vel 积分位姿，发布 /odom 与 TF</description>
+  <maintainer email="you@example.com">xiaosheng</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
